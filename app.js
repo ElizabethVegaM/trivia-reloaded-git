@@ -3,7 +3,7 @@ document.getElementById("enteredName").addEventListener("click", function(){
     document.getElementById("demo").innerHTML = "Bienvenida " + username;
 });
     
-
+function questions(){
 document.getElementById("yesPlay").addEventListener("click", yesPlay);
 function yesPlay() {
     document.getElementById("gameplay").style.display='none';
@@ -16,4 +16,4 @@ document.getElementById("noPlay").addEventListener("click", noPlay);
 function noPlay() {
     document.getElementById("buttons").style.display='none';
     document.getElementById("otroDia").innerHTML = '<h3>Juguemos otro día</h3>';
-};
+}}
