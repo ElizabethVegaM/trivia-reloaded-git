@@ -1,0 +1,28 @@
+#rightAnswers {
+    display: none;
+    background-color: rgb(136, 218, 210);
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+
+#answer1 {
+    display: none;
+}
+
+#upperBar {
+    display: none;
+
+}
+
+#wrongAnswers {
+    display: none;
+    background-color: rgb(233, 150, 150);
+    width: 50%;
+    float: left;
+    height: 100vh;
+}
+
+.answer {
+    color: white;
+}
