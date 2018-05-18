@@ -1,3 +1,7 @@
+document.getElementById("enteredName").addEventListener("click", function(){
+    var username = document.getElementById("username").value;
+    document.getElementById("demo").innerHTML = "Bienvenida " + username;
+
 function yesPlay() {
     
 }
