@@ -10,11 +10,13 @@
     display: none;
 }
 
-#upperBar {
+#gameplay {
     display: none;
-
 }
 
+#upperBar {
+    display: none;
+}
 #wrongAnswers {
     display: none;
     background-color: rgb(233, 150, 150);
